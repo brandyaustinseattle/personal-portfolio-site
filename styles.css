@@ -262,15 +262,11 @@ nav ul li a:hover {
   margin: 20px;
   justify-content: space-between;
   border: 1px solid #66574A;
-  border-radius: 25px;
-  background-color: #66574A;
   color: white;
+  background-image: url(images/slats.jpg);
   border: 1px solid #FFDAB9;
-  padding: 40px;
-}
-
-.experience h2, .experience h3 {
-  color: #FFDAB9;
+  padding: 40px 60px 40px 60px;
+  margin: 8px 14px 8px 14px;
 }
 
 .experience h2:nth-of-type(2), .experience h2:nth-of-type(3) {
@@ -293,12 +289,7 @@ nav ul li a:hover {
 .skills:hover {
   color: #FFDAB9;
   border: 1px solid #FFDAB9;
-  background: #66574a;
-  background:-webkit-linear-gradient(bottom, #66574a, #c5b9af);
-  background: -moz-linear-gradient(bottom, #66574a, #c5b9af);
-  background: -ms-linear-gradient(bottom, #66574a, #c5b9af);
-  background: -o-linear-gradient(bottom, #66574a, #c5b9af);
-  background: linear-gradient(to top, #66574a, #c5b9af);
+  background: #66574A;
 }
 
 .footer {
