@@ -1,3 +1,22 @@
+body, html {
+    height: 100%;
+}
+
+.top, .bottom {
+    /* The image used */
+    background-image: url(images/background.jpg);
+
+    /* Full height */
+    height: 40%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 14px 0px 14px;
+}
+
 nav {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -46,8 +65,10 @@ nav ul li a:hover {
   font-family: 'Gloria Hallelujah', cursive;
   list-style: none;
   padding: 0;
+  margin: 0px 14px 0px 14px;
   display: flex;
   flex-direction: column;
+  background-image: url(images/flowers.jpg);
 }
 
 .quotes li, .skills {
@@ -287,6 +308,7 @@ nav ul li a:hover {
   background: -ms-linear-gradient(bottom, #66574a, #c5b9af);
   background: -o-linear-gradient(bottom, #66574a, #c5b9af);
   background: linear-gradient(to top, #66574a, #c5b9af);
+  margin: 0;
 }
 
 .footer #copy {
