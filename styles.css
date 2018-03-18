@@ -75,7 +75,7 @@ nav ul li a:hover {
   flex-direction: column;
 }
 
-.quotes li, .skills {
+.quotes li {
   background-color: #FFDAB9;
   font-size: 1.3em;
   font-weight: bold;
@@ -83,12 +83,6 @@ nav ul li a:hover {
   justify-content: space-between;
   border: 1px solid #66574A;
   border-radius: 25px;
-}
-
-.quotes li:hover {
-  background-color: #66574A;
-  color: #FFDAB9;
-  border: 1px solid #FFDAB9;
 }
 
 .quotes {
@@ -108,12 +102,6 @@ nav ul li a:hover {
   height: 350px;
   width: 350px;
   margin: 5px 100px 5px 100px;
-}
-
-.about section:hover {
-  background-color: #66574A;
-  color: #FFDAB9;
-  border: 1px solid #FFDAB9;
 }
 
 .about #text {
@@ -239,11 +227,6 @@ nav ul li a:hover {
   border: 1px solid #66574A;
 }
 
-.projects a:hover {
-  background-color: #66574A;
-  color: white;
-}
-
 .skills {
   padding: 20px;
   font-family: 'Patua One', cursive;
@@ -254,6 +237,16 @@ nav ul li a:hover {
 .skills ul {
   list-style: none;
   padding: 0;
+}
+
+.skills {
+  background-color: #FFDAB9;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 20px;
+  justify-content: space-between;
+  border: 1px solid #66574A;
+  border-radius: 25px;
 }
 
 .experience {
@@ -286,10 +279,10 @@ nav ul li a:hover {
   flex: 50%;
 }
 
-.skills:hover {
+.recap .horizontal:hover, .recap .vertical:hover, .recap .big:hover, .skills:hover, .about section:hover, .quotes li:hover, .projects a:hover  {
   color: #FFDAB9;
   border: 1px solid #FFDAB9;
-  background: #66574A;
+  background-image: url(images/slats.jpg);
 }
 
 .footer {
