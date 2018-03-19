@@ -17,6 +17,22 @@ body, html {
     margin: 0px 14px 0px 14px;
 }
 
+.end {
+    /* The image used */
+    background-image: url(images/flowers.jpg);
+    opacity: 0.3;
+
+    /* Full height */
+    height: 60%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 14px 0px 14px;
+}
+
 nav {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
