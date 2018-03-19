@@ -67,12 +67,6 @@ nav ul {
   background: linear-gradient(to bottom, #66574a, #c5b9af);
 }
 
-.color {
-  grid-row: 3 / 4;
-  grid-column: 1 / 7;
-  height: 10%;
-  background-color: blue;
-}
 
 nav ul li a {
   color: white;
